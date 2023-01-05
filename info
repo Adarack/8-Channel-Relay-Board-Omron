@@ -1,0 +1,935 @@
+{
+  "uuid": "82704064470723ba83249652a3c12d8c",
+  "path": "Offline/8%20Channel%20Relay%20Board%20Omron",
+  "name": "8 Channel Relay Board Omron",
+  "content": "",
+  "created_at": "2022-12-25 05:37:54",
+  "updated_at": "2023-01-04 20:57:50",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "b55f95bf5b8a8cafa009c2bc16a11c11",
+      "title": "Relay Section",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "12910f25495140cc86e38e6bb42be5dc": 8,
+        "e6459d06dbca4c39b87f046a4e5c9da1": 2,
+        "464635234f42454ea0d3c2b0deb55e0e": 8,
+        "77fe4810bb054bfb93df6babb5333455": 8,
+        "7d53ed2f7e92472bb0cb44e65e3b798b": 8,
+        "244b1b623204bec53bc93124032c165c": 8,
+        "d45b5f61a0dc4b559ed4133cd704b4a5": 24
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BYG22D-E3/TR",
+          8,
+          "SMA_L4.4-W2.8-LS5.4-RD",
+          "D1,D2,D3,D4,D5,D6,D7,D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY(威世)",
+            "BOM_Manufacturer Part": "BYG22D-E3/TR",
+            "BOM_Supplier Part": "C52782",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9275fb41c0064223b77db30e06cb1bfe",
+            "uuid": "464635234f42454ea0d3c2b0deb55e0e"
+          }
+        ],
+        [
+          "FC-2012UGK-520D5",
+          8,
+          "LED0805-R-RD",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "82605a93a0be4c79a27d82f67f2aca29",
+            "uuid": "244b1b623204bec53bc93124032c165c"
+          }
+        ],
+        [
+          "BC547",
+          8,
+          "TO-92-3_L4.5-W3.5-P1.27-L",
+          "Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2910381",
+            "BOM_Manufacturer": "CJ(江苏长电/长晶)",
+            "BOM_Manufacturer Part": "BC547",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "560158fdc69b488f8a3fe99daed4a070",
+            "uuid": "12910f25495140cc86e38e6bb42be5dc"
+          }
+        ],
+        [
+          "1K",
+          24,
+          "R0805",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "RC0805FR-071KL",
+            "BOM_Supplier Part": "C95781",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "d45b5f61a0dc4b559ed4133cd704b4a5"
+          }
+        ],
+        [
+          "G5Q-1A4-EU DC12 BY OMZ/C",
+          8,
+          "RELAY-TH_OMRON_G5Q-1A4-XX-XX-XX",
+          "RELAY1,RELAY2,RELAY3,RELAY4,RELAY5,RELAY6,RELAY7,RELAY8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C726027",
+            "BOM_Manufacturer": "OMRON(欧姆龙)",
+            "BOM_Manufacturer Part": "G5Q-1A4-EU DC12 BY OMZ/C",
+            "puuid": "2a70294bfa2f493b84b7d9392ff344e9",
+            "uuid": "77fe4810bb054bfb93df6babb5333455"
+          }
+        ],
+        [
+          "LTV-847",
+          2,
+          "DIP-16_16P-L20.2-W6.6-P2.54-LS7.6-BL",
+          "U1,U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LITEON(光宝)",
+            "BOM_Manufacturer Part": "LTV-847",
+            "BOM_Supplier Part": "C10794",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a8834d810e384ae1bfe2643c5db26b52",
+            "uuid": "e6459d06dbca4c39b87f046a4e5c9da1"
+          }
+        ],
+        [
+          "XY129V-B-5.08-2P",
+          8,
+          "CONN-TH_XY129V-B-5.08-2P",
+          "U7,U8,U10,U11,U12,U13,U14,U15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C557671",
+            "BOM_Manufacturer": "--",
+            "BOM_Manufacturer Part": "XY129V-B-5.08-2P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ad809bad441d47dc945c5e4a691f9224",
+            "uuid": "7d53ed2f7e92472bb0cb44e65e3b798b"
+          }
+        ],
+        [
+          "220uF",
+          4,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C1,C6,C7,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C407962",
+            "BOM_Manufacturer": "PANASONIC(松下)",
+            "BOM_Manufacturer Part": "EEUFS0J221",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3744bcbe1f464b01ae180f32d7d4b0c4",
+            "uuid": "6ddbececdab04774b354fa05cfafff0e"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "C0805",
+          "C2,C4,C5,C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C519981",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "CC0805KRX7R8BB104",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "70a53ed1f15548cfa8b086c94042c084"
+          }
+        ],
+        [
+          "1500uF",
+          1,
+          "CAP-TH_BD12.5-P5.00-D0.6-FD",
+          "C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C238296",
+            "BOM_Manufacturer": "Man Yue Tech",
+            "BOM_Manufacturer Part": "EGF158M1VI25RRSHP",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "646b2bc75eb7468ebc6c9b1c5395cda9",
+            "uuid": "4a1513cdf15547c092c13bf595b85e30"
+          }
+        ],
+        [
+          "10pF",
+          4,
+          "C0805",
+          "C10,C11,C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH(风华)",
+            "BOM_Manufacturer Part": "0805CG100J500NT",
+            "BOM_Supplier Part": "C157608",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "0f45bf19e4624f3fa00ec961868e01a6"
+          }
+        ],
+        [
+          "DB128V-5.08-4P-GN-S",
+          1,
+          "CONN-TH_4P-P5.08_DIBO_DB128V-5.08",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2915641",
+            "BOM_Manufacturer": "DIBO(地博电气)",
+            "BOM_Manufacturer Part": "DB128V-5.08-4P-GN-S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f31b0a98c2354aafb261896057647fc0",
+            "uuid": "bd66a34a11dd4d48b03873aecfb36725"
+          }
+        ],
+        [
+          "1N4001_C727079",
+          1,
+          "SMA_L4.3-W2.5-LS5.0-RD",
+          "D9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C727079",
+            "BOM_Manufacturer": "TWGMC",
+            "BOM_Manufacturer Part": "1N4001",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "843852beeeb646dd9804a99e28c2f069",
+            "uuid": "dcd24814e7234ad691b2654034aece0e"
+          }
+        ],
+        [
+          "PZ254V-11-03P_C2937625",
+          2,
+          "HDR-TH_3P-P2.54-V-M",
+          "H1,H2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2937625",
+            "BOM_Manufacturer": "XFCN(台湾兴飞)",
+            "BOM_Manufacturer Part": "PZ254V-11-03P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5c0be672313e4206a41dd5398a02f108",
+            "uuid": "4dd8e5004bac4eb1a16b3b145b69092a"
+          }
+        ],
+        [
+          "577102B00000G",
+          4,
+          "577102B00000G",
+          "HS1,HS2,HS3,HS4",
+          {
+            "BOM_Manufacturer": "Aavid",
+            "BOM_Manufacturer Part": "577102B00000G",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "532-577102B00",
+            "puuid": "e6b317d6859b45e887a3a5e7a03f53dc",
+            "uuid": "44d2e1fb22044bea9eb79b1dac54f639"
+          }
+        ],
+        [
+          "Dupont_2.54x2",
+          1,
+          "DUPONT 2.54_2",
+          "J3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f33824dee19043a4bed0747945b0902c",
+            "uuid": "ed3ff7974f8d43a493be5e7389def721"
+          }
+        ],
+        [
+          "SZYY0805Y",
+          2,
+          "LED0805-RD_YELLOW",
+          "LED9,LED10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434436",
+            "BOM_Manufacturer": "yongyu(永裕光电)",
+            "BOM_Manufacturer Part": "SZYY0805Y",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5c17a4406d80409ea24695f47b1a8e51",
+            "uuid": "9eed17d8eab249ecaa33f346be377f5b"
+          }
+        ],
+        [
+          "FC-2012HRK-620D",
+          2,
+          "LED0805-RD_RED",
+          "LED11,LED12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-2012HRK-620D",
+            "BOM_Supplier Part": "C84256",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "bfb6a2773f06414c87aa48a7f877b54b",
+            "uuid": "45aa9db41fe55f139f756074a7ef37a0"
+          }
+        ],
+        [
+          "FC-2012UGK-520D5",
+          1,
+          "LED0805-R-RD",
+          "LED13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "82605a93a0be4c79a27d82f67f2aca29",
+            "uuid": "244b1b623204bec53bc93124032c165c"
+          }
+        ],
+        [
+          "SZYY0805B",
+          1,
+          "LED0805-R-RD_BLUE",
+          "LED14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434433",
+            "BOM_Manufacturer": "yongyu(永裕光电)",
+            "BOM_Manufacturer Part": "SZYY0805B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4cc01cd6cbbb40e3aeb251e5406a51e8",
+            "uuid": "cafe0bcdd112430faa8050e30e82bbcc"
+          }
+        ],
+        [
+          "1K",
+          6,
+          "R0805",
+          "R25,R26,R27,R28,R29,R30",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "RC0805FR-071KL",
+            "BOM_Supplier Part": "C95781",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "d45b5f61a0dc4b559ed4133cd704b4a5"
+          }
+        ],
+        [
+          "button6*6*8.5",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50",
+          "RESET1",
+          {
+            "BOM_Supplier Part": "C59980",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "button6*6*8.5",
+            "puuid": "9096c4e6bc254754b0b895e85df2faca",
+            "uuid": "e8227dd34355fb317f612b5079bf676c"
+          }
+        ],
+        [
+          "L7805ACV-DG",
+          2,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U3,U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C472632",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L7805ACV-DG",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "7c563ab4f2b64eeeb00139884e3eb49e"
+          }
+        ],
+        [
+          "LD1117V33",
+          2,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U5,U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C283467",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "LD1117V33",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "b8e96d348e984a7f961b80cd40d3bcf8"
+          }
+        ],
+        [
+          "Raspberry Pi Pico W",
+          1,
+          "RASPBERRY PI PICO W HOLES CASTELLATED",
+          "U9",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "34d41f43cef342c8b81ba6df860901cd",
+            "uuid": "52d669cd50324b9389efb9e04b364425"
+          }
+        ],
+        [
+          "XY128V-A-5.08-2P",
+          1,
+          "CONN-TH_XY128V-A-5.08-2P",
+          "U16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C557665",
+            "BOM_Manufacturer": "XINLAIYA(新莱亚)",
+            "BOM_Manufacturer Part": "XY128V-A-5.08-2P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "30df505e4a3a4a7d832d61ce06981c5c",
+            "uuid": "6c74a6e6236446c2b1e62782efc09c55"
+          }
+        ],
+        [
+          "DB128V-5.0-8P",
+          2,
+          "CONN-TH_8P-P5.00_DB128V-5.0-8P",
+          "U17,U18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395863",
+            "BOM_Manufacturer": "DIBO",
+            "BOM_Manufacturer Part": "DB128V-5.0-8P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "80c6620da9194ab2908fa5cae9db6284",
+            "uuid": "c7864e4fa98f458b8d6a451aa3f9392d"
+          }
+        ]
+      ],
+      "updateTime": 1672136287,
+      "createTime": 1671286377,
+      "histories": [],
+      "created_at": "2022-12-17 09:12:57",
+      "updated_at": "2022-12-27 05:18:07"
+    },
+    {
+      "uuid": "94d8ae7a2677ffa6cd8012b8f82bfcf8",
+      "title": "Pico W Section",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "52d669cd50324b9389efb9e04b364425": 1,
+        "b8e96d348e984a7f961b80cd40d3bcf8": 2,
+        "6ddbececdab04774b354fa05cfafff0e": 4,
+        "6c74a6e6236446c2b1e62782efc09c55": 1,
+        "c7864e4fa98f458b8d6a451aa3f9392d": 2,
+        "bd66a34a11dd4d48b03873aecfb36725": 1,
+        "dcd24814e7234ad691b2654034aece0e": 1,
+        "7c563ab4f2b64eeeb00139884e3eb49e": 2,
+        "4dd8e5004bac4eb1a16b3b145b69092a": 2,
+        "44d2e1fb22044bea9eb79b1dac54f639": 4,
+        "4a1513cdf15547c092c13bf595b85e30": 1,
+        "70a53ed1f15548cfa8b086c94042c084": 4,
+        "0f45bf19e4624f3fa00ec961868e01a6": 4,
+        "9eed17d8eab249ecaa33f346be377f5b": 2,
+        "45aa9db41fe55f139f756074a7ef37a0": 2,
+        "244b1b623204bec53bc93124032c165c": 1,
+        "cafe0bcdd112430faa8050e30e82bbcc": 1,
+        "ed3ff7974f8d43a493be5e7389def721": 1,
+        "e8227dd34355fb317f612b5079bf676c": 1,
+        "d45b5f61a0dc4b559ed4133cd704b4a5": 7
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BYG22D-E3/TR",
+          8,
+          "SMA_L4.4-W2.8-LS5.4-RD",
+          "D1,D2,D3,D4,D5,D6,D7,D8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY(威世)",
+            "BOM_Manufacturer Part": "BYG22D-E3/TR",
+            "BOM_Supplier Part": "C52782",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9275fb41c0064223b77db30e06cb1bfe",
+            "uuid": "464635234f42454ea0d3c2b0deb55e0e"
+          }
+        ],
+        [
+          "FC-2012UGK-520D5",
+          8,
+          "LED0805-R-RD",
+          "LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "82605a93a0be4c79a27d82f67f2aca29",
+            "uuid": "244b1b623204bec53bc93124032c165c"
+          }
+        ],
+        [
+          "BC547",
+          8,
+          "TO-92-3_L4.5-W3.5-P1.27-L",
+          "Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2910381",
+            "BOM_Manufacturer": "CJ(江苏长电/长晶)",
+            "BOM_Manufacturer Part": "BC547",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "560158fdc69b488f8a3fe99daed4a070",
+            "uuid": "12910f25495140cc86e38e6bb42be5dc"
+          }
+        ],
+        [
+          "1K",
+          24,
+          "R0805",
+          "R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "RC0805FR-071KL",
+            "BOM_Supplier Part": "C95781",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "d45b5f61a0dc4b559ed4133cd704b4a5"
+          }
+        ],
+        [
+          "G5Q-1A4-EU DC12 BY OMZ/C",
+          8,
+          "RELAY-TH_OMRON_G5Q-1A4-XX-XX-XX",
+          "RELAY1,RELAY2,RELAY3,RELAY4,RELAY5,RELAY6,RELAY7,RELAY8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C726027",
+            "BOM_Manufacturer": "OMRON(欧姆龙)",
+            "BOM_Manufacturer Part": "G5Q-1A4-EU DC12 BY OMZ/C",
+            "puuid": "2a70294bfa2f493b84b7d9392ff344e9",
+            "uuid": "77fe4810bb054bfb93df6babb5333455"
+          }
+        ],
+        [
+          "LTV-847",
+          2,
+          "DIP-16_16P-L20.2-W6.6-P2.54-LS7.6-BL",
+          "U1,U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LITEON(光宝)",
+            "BOM_Manufacturer Part": "LTV-847",
+            "BOM_Supplier Part": "C10794",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a8834d810e384ae1bfe2643c5db26b52",
+            "uuid": "e6459d06dbca4c39b87f046a4e5c9da1"
+          }
+        ],
+        [
+          "XY129V-B-5.08-2P",
+          8,
+          "CONN-TH_XY129V-B-5.08-2P",
+          "U7,U8,U10,U11,U12,U13,U14,U15",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C557671",
+            "BOM_Manufacturer": "--",
+            "BOM_Manufacturer Part": "XY129V-B-5.08-2P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ad809bad441d47dc945c5e4a691f9224",
+            "uuid": "7d53ed2f7e92472bb0cb44e65e3b798b"
+          }
+        ],
+        [
+          "220uF",
+          4,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C1,C6,C7,C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C407962",
+            "BOM_Manufacturer": "PANASONIC(松下)",
+            "BOM_Manufacturer Part": "EEUFS0J221",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3744bcbe1f464b01ae180f32d7d4b0c4",
+            "uuid": "6ddbececdab04774b354fa05cfafff0e"
+          }
+        ],
+        [
+          "100nF",
+          4,
+          "C0805",
+          "C2,C4,C5,C9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C519981",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "CC0805KRX7R8BB104",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "70a53ed1f15548cfa8b086c94042c084"
+          }
+        ],
+        [
+          "1500uF",
+          1,
+          "CAP-TH_BD12.5-P5.00-D0.6-FD",
+          "C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C238296",
+            "BOM_Manufacturer": "Man Yue Tech",
+            "BOM_Manufacturer Part": "EGF158M1VI25RRSHP",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "646b2bc75eb7468ebc6c9b1c5395cda9",
+            "uuid": "4a1513cdf15547c092c13bf595b85e30"
+          }
+        ],
+        [
+          "10pF",
+          4,
+          "C0805",
+          "C10,C11,C12,C13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH(风华)",
+            "BOM_Manufacturer Part": "0805CG100J500NT",
+            "BOM_Supplier Part": "C157608",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "0f45bf19e4624f3fa00ec961868e01a6"
+          }
+        ],
+        [
+          "DB128V-5.08-4P-GN-S",
+          1,
+          "CONN-TH_4P-P5.08_DIBO_DB128V-5.08",
+          "CN1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2915641",
+            "BOM_Manufacturer": "DIBO(地博电气)",
+            "BOM_Manufacturer Part": "DB128V-5.08-4P-GN-S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f31b0a98c2354aafb261896057647fc0",
+            "uuid": "bd66a34a11dd4d48b03873aecfb36725"
+          }
+        ],
+        [
+          "1N4001_C727079",
+          1,
+          "SMA_L4.3-W2.5-LS5.0-RD",
+          "D9",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C727079",
+            "BOM_Manufacturer": "TWGMC",
+            "BOM_Manufacturer Part": "1N4001",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "843852beeeb646dd9804a99e28c2f069",
+            "uuid": "dcd24814e7234ad691b2654034aece0e"
+          }
+        ],
+        [
+          "PZ254V-11-03P_C2937625",
+          2,
+          "HDR-TH_3P-P2.54-V-M",
+          "H1,H2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2937625",
+            "BOM_Manufacturer": "XFCN(台湾兴飞)",
+            "BOM_Manufacturer Part": "PZ254V-11-03P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5c0be672313e4206a41dd5398a02f108",
+            "uuid": "4dd8e5004bac4eb1a16b3b145b69092a"
+          }
+        ],
+        [
+          "577102B00000G",
+          4,
+          "577102B00000G",
+          "HS1,HS2,HS3,HS4",
+          {
+            "BOM_Manufacturer": "Aavid",
+            "BOM_Manufacturer Part": "577102B00000G",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "532-577102B00",
+            "puuid": "e6b317d6859b45e887a3a5e7a03f53dc",
+            "uuid": "44d2e1fb22044bea9eb79b1dac54f639"
+          }
+        ],
+        [
+          "Dupont_2.54x2",
+          1,
+          "DUPONT 2.54_2",
+          "J3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f33824dee19043a4bed0747945b0902c",
+            "uuid": "ed3ff7974f8d43a493be5e7389def721"
+          }
+        ],
+        [
+          "SZYY0805Y",
+          2,
+          "LED0805-RD_YELLOW",
+          "LED9,LED10",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434436",
+            "BOM_Manufacturer": "yongyu(永裕光电)",
+            "BOM_Manufacturer Part": "SZYY0805Y",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5c17a4406d80409ea24695f47b1a8e51",
+            "uuid": "9eed17d8eab249ecaa33f346be377f5b"
+          }
+        ],
+        [
+          "FC-2012HRK-620D",
+          2,
+          "LED0805-RD_RED",
+          "LED11,LED12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "NATIONSTAR",
+            "BOM_Manufacturer Part": "FC-2012HRK-620D",
+            "BOM_Supplier Part": "C84256",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "bfb6a2773f06414c87aa48a7f877b54b",
+            "uuid": "45aa9db41fe55f139f756074a7ef37a0"
+          }
+        ],
+        [
+          "FC-2012UGK-520D5",
+          1,
+          "LED0805-R-RD",
+          "LED13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "82605a93a0be4c79a27d82f67f2aca29",
+            "uuid": "244b1b623204bec53bc93124032c165c"
+          }
+        ],
+        [
+          "SZYY0805B",
+          1,
+          "LED0805-R-RD_BLUE",
+          "LED14",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C434433",
+            "BOM_Manufacturer": "yongyu(永裕光电)",
+            "BOM_Manufacturer Part": "SZYY0805B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "4cc01cd6cbbb40e3aeb251e5406a51e8",
+            "uuid": "cafe0bcdd112430faa8050e30e82bbcc"
+          }
+        ],
+        [
+          "1K",
+          7,
+          "R0805",
+          "R25,R26,R27,R28,R29,R30,R31",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YAGEO(国巨)",
+            "BOM_Manufacturer Part": "RC0805FR-071KL",
+            "BOM_Supplier Part": "C95781",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "d45b5f61a0dc4b559ed4133cd704b4a5"
+          }
+        ],
+        [
+          "button6*6*8.5",
+          1,
+          "KEY-TH_4P-L6.0-W6.0-P4.50",
+          "RESET1",
+          {
+            "BOM_Supplier Part": "C59980",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "button6*6*8.5",
+            "puuid": "9096c4e6bc254754b0b895e85df2faca",
+            "uuid": "e8227dd34355fb317f612b5079bf676c"
+          }
+        ],
+        [
+          "L7805ACV-DG",
+          2,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U3,U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C472632",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L7805ACV-DG",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "7c563ab4f2b64eeeb00139884e3eb49e"
+          }
+        ],
+        [
+          "LD1117V33",
+          2,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U5,U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C283467",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "LD1117V33",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "b8e96d348e984a7f961b80cd40d3bcf8"
+          }
+        ],
+        [
+          "Raspberry Pi Pico W",
+          1,
+          "RASPBERRY PI PICO W HOLES CASTELLATED",
+          "U9",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "34d41f43cef342c8b81ba6df860901cd",
+            "uuid": "52d669cd50324b9389efb9e04b364425"
+          }
+        ],
+        [
+          "XY128V-A-5.08-2P",
+          1,
+          "CONN-TH_XY128V-A-5.08-2P",
+          "U16",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C557665",
+            "BOM_Manufacturer": "XINLAIYA(新莱亚)",
+            "BOM_Manufacturer Part": "XY128V-A-5.08-2P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "30df505e4a3a4a7d832d61ce06981c5c",
+            "uuid": "6c74a6e6236446c2b1e62782efc09c55"
+          }
+        ],
+        [
+          "DB128V-5.0-8P",
+          2,
+          "CONN-TH_8P-P5.00_DB128V-5.0-8P",
+          "U17,U18",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395863",
+            "BOM_Manufacturer": "DIBO",
+            "BOM_Manufacturer Part": "DB128V-5.0-8P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "80c6620da9194ab2908fa5cae9db6284",
+            "uuid": "c7864e4fa98f458b8d6a451aa3f9392d"
+          }
+        ]
+      ],
+      "updateTime": 1672179191,
+      "createTime": 1671287994,
+      "histories": [],
+      "created_at": "2022-12-17 09:39:54",
+      "updated_at": "2022-12-27 17:13:11"
+    },
+    {
+      "uuid": "8303be3f03cd65f57174854ecc41655d",
+      "puuid": "b1fc9f1854b26042253ada1e790c66d8",
+      "title": "PCB_8 Channel Relay Board Omron",
+      "filename": "PCB_8 Channel Relay Board Omron.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 31,
+        "f33824dee19043a4bed0747945b0902c": 1,
+        "9096c4e6bc254754b0b895e85df2faca": 1,
+        "5c17a4406d80409ea24695f47b1a8e51": 2,
+        "bfb6a2773f06414c87aa48a7f877b54b": 2,
+        "82605a93a0be4c79a27d82f67f2aca29": 9,
+        "4cc01cd6cbbb40e3aeb251e5406a51e8": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 8,
+        "646b2bc75eb7468ebc6c9b1c5395cda9": 1,
+        "e6b317d6859b45e887a3a5e7a03f53dc": 4,
+        "3744bcbe1f464b01ae180f32d7d4b0c4": 4,
+        "f31b0a98c2354aafb261896057647fc0": 1,
+        "843852beeeb646dd9804a99e28c2f069": 1,
+        "560158fdc69b488f8a3fe99daed4a070": 8,
+        "2a70294bfa2f493b84b7d9392ff344e9": 8,
+        "a8834d810e384ae1bfe2643c5db26b52": 2,
+        "948e610cffd14df79f04c73832b1409b": 4,
+        "ad809bad441d47dc945c5e4a691f9224": 8,
+        "34d41f43cef342c8b81ba6df860901cd": 1,
+        "30df505e4a3a4a7d832d61ce06981c5c": 1,
+        "80c6620da9194ab2908fa5cae9db6284": 2,
+        "5c0be672313e4206a41dd5398a02f108": 2,
+        "9275fb41c0064223b77db30e06cb1bfe": 8
+      },
+      "BOM": [],
+      "updateTime": 1672181490,
+      "createTime": 1671965044,
+      "histories": [],
+      "created_at": "2022-12-25 05:44:04",
+      "updated_at": "2022-12-27 17:51:30"
+    }
+  ],
+  "sort": [
+    "b55f95bf5b8a8cafa009c2bc16a11c11",
+    "94d8ae7a2677ffa6cd8012b8f82bfcf8"
+  ],
+  "title": "8 Channel Relay Board Omron",
+  "foldername": "8 Channel Relay Board Omron",
+  "schfilename": "8 Channel Relay Board Omron.json",
+  "schfilemtime": 1672179191938
+}
